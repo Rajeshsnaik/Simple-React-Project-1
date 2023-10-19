@@ -1,0 +1,37 @@
+.parent-container{
+    height: 100vh;
+}
+.parts{
+    height: 100%;
+}
+.part1{
+    height: 100%;
+    width: 50%;
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.part2{
+    height: 100%;
+    width: 50%;
+    background: #DCE35B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.seprator-text{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    color: white;
+
+}
+.seprator-text span{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 30px;
+    font-weight: bold;
+}
